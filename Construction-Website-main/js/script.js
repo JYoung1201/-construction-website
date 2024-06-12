@@ -9,6 +9,7 @@ document.querySelector('#menu-btn').onclick = () =>{
    loginForm.classList.remove('active');
 };
 
+/*
 document.querySelector('#search-btn').onclick = () =>{
    searchForm.classList.toggle('active');
    navbar.classList.remove('active');
@@ -20,10 +21,11 @@ document.querySelector('#login-btn').onclick = () =>{
    navbar.classList.remove('active');
    searchForm.classList.remove('active'); 
 };
+*/
 
 document.querySelector('#info-btn').onclick = () =>{
-   contactInfo.classList.add('active');
-}
+   contactInfo.classList.toggle('active');
+};
 
 document.querySelector('#close-contact-info').onclick = () =>{
    contactInfo.classList.remove('active');

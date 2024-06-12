@@ -278,7 +278,25 @@ section {
 .header .login-form p a:hover {
   text-decoration: underline;
 }
+/* Added info css jwaters */
+.info {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
 
+.info i {
+  font-size: 1.5em; /* Increase the icon size */
+}
+.info h3 {
+  font-size: 3em; /* Increase the font size for better readability */
+}
+
+.info p {
+  font-size: 2em; /* Adjust the font size as needed */
+}
 .contact-info {
   position: fixed;
   top: 0;
@@ -313,39 +331,10 @@ section {
           transform: rotate(90deg);
 }
 
-.contact-info .info {
-  padding: 2rem 0;
-}
 
-.contact-info .info i {
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  font-size: 2rem;
-  background: var(--light-bg);
-  color: var(--black);
-  cursor: pointer;
-  text-align: center;
-  margin-bottom: .5rem;
-}
 
-.contact-info .info i:hover {
-  background: var(--black);
-  color: var(--white);
-}
 
-.contact-info .info h3 {
-  font-size: 2rem;
-  color: var(--black);
-  text-transform: capitalize;
-  padding: 1rem 0;
-}
 
-.contact-info .info p {
-  font-size: 1.5rem;
-  color: var(--light-color);
-  line-height: 2;
-}
 
 .contact-info .share {
   padding-top: 2rem;
@@ -476,10 +465,27 @@ section {
   font-size: 3.5rem;
   color: var(--black);
   text-transform: capitalize;
+
 }
+/* custom header psalm 127:1 */
+.about .row .content h4 {
+  font-size: 3.5rem;
+  color: var(--black);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
 
 .about .row .content p {
   font-size: 1.5rem;
+  color: var(--light-color);
+  line-height: 2;
+  padding: 1rem 0;
+}
+/* custom paragraph psalm 127:1 */
+.about .row .content p2 {
+  font-size: 3rem;
   color: var(--light-color);
   line-height: 2;
   padding: 1rem 0;
@@ -611,21 +617,7 @@ section {
           justify-content: space-between;
 }
 
-.projects .box-container .box .content .info {
-  padding: 1rem 2rem;
-}
 
-.projects .box-container .box .content .info h3 {
-  font-size: 1.7rem;
-  color: var(--black);
-  text-transform: capitalize;
-}
-
-.projects .box-container .box .content .info p {
-  font-size: 1.5rem;
-  color: var(--light-color);
-  line-height: 2;
-}
 
 .projects .box-container .box .content i {
   width: 7.5rem;
@@ -749,6 +741,7 @@ section {
   color: var(--light-color);
   line-height: 2;
 }
+
 
 .contact {
   background: var(--black);
