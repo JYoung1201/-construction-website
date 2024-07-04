@@ -372,7 +372,9 @@ section {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+
   background-size: cover !important;
+  
   background-position: center !important;
 }
 
